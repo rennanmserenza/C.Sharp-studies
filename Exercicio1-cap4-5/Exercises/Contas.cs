@@ -8,20 +8,15 @@ namespace Exercises
 		public string Titular { get; private set; }
 		public double Saldo { get; private set; }
 
-		public Contas()
-		{
-		}
-
 		public Contas(int numConta, string titular)
 		{
 			NumConta = numConta;
 			Titular = titular;
-			Saldo = 0.00;
 		}
 
-		public Contas(int numConta, string titular, double saldo) : this(numConta,titular)
+		public Contas(int numConta, string titular, double depositoInicial) : this(numConta,titular)
 		{
-			Saldo = saldo;
+			Depositos(depositoInicial);
 		}
 
 		public override string ToString()
