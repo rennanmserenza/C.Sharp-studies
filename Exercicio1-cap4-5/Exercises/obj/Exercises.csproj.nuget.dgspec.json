@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjetosEstudo\\C#\\Exercises\\Exercises\\Exercises.csproj": {}
+    "D:\\ProjetosEstudo\\C#\\Exercicio1-cap4-5\\Exercises\\Exercises.csproj": {}
   },
   "projects": {
-    "D:\\ProjetosEstudo\\C#\\Exercises\\Exercises\\Exercises.csproj": {
+    "D:\\ProjetosEstudo\\C#\\Exercicio1-cap4-5\\Exercises\\Exercises.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjetosEstudo\\C#\\Exercises\\Exercises\\Exercises.csproj",
+        "projectUniqueName": "D:\\ProjetosEstudo\\C#\\Exercicio1-cap4-5\\Exercises\\Exercises.csproj",
         "projectName": "Exercises",
-        "projectPath": "D:\\ProjetosEstudo\\C#\\Exercises\\Exercises\\Exercises.csproj",
+        "projectPath": "D:\\ProjetosEstudo\\C#\\Exercicio1-cap4-5\\Exercises\\Exercises.csproj",
         "packagesPath": "C:\\Users\\renna\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjetosEstudo\\C#\\Exercises\\Exercises\\obj\\",
+        "outputPath": "D:\\ProjetosEstudo\\C#\\Exercicio1-cap4-5\\Exercises\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

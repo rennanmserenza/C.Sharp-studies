@@ -6,7 +6,7 @@ namespace Exercises
 	{
 		public int NumConta { get; private set; }
 		public string Titular { get; private set; }
-		public double Saldo { get; set; }
+		public double Saldo { get; private set; }
 
 		public Contas()
 		{
@@ -19,10 +19,8 @@ namespace Exercises
 			Saldo = 0.00;
 		}
 
-		public Contas(int numConta, string titular, double saldo)
+		public Contas(int numConta, string titular, double saldo) : this(numConta,titular)
 		{
-			NumConta = numConta;
-			Titular = titular;
 			Saldo = saldo;
 		}
 

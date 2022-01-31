@@ -5,14 +5,6 @@ namespace Exercises
 {
 	class Program
 	{
-		public static Boolean IsAlphaNumeric(string strToCheck)
-		{
-			Regex rg = new Regex("[0-9]");
-
-			//if has Numeric char, return true, else return false.
-
-			return rg.IsMatch(strToCheck) == true ? true : false;
-		}
 
 		static int NumConta()
 		{
@@ -25,7 +17,9 @@ namespace Exercises
 				try
 				{
 					Console.Write("Entre o número da conta: ");
+#pragma warning disable CS8602 // Desreferência de uma referência possivelmente nula.
 					num = Console.ReadLine().Trim();
+#pragma warning restore CS8602 // Desreferência de uma referência possivelmente nula.
 					op = int.TryParse(num, out numC);
 				}
 				catch (Exception ex)
@@ -55,6 +49,17 @@ namespace Exercises
 			}
 		}
 
+		public static Boolean IsAlphaNumeric(string strToCheck)
+		{
+			Regex rg = new Regex("[0-9]");
+
+			//if has Numeric char, return true, else return false.
+			if (rg.IsMatch(strToCheck))
+				return true;
+			else
+				return false;
+		}
+
 		static string TitularConta()
 		{
 			bool op = false;
@@ -64,7 +69,9 @@ namespace Exercises
 				try
 				{
 					Console.Write("Entre o nome do titular da conta: ");
+#pragma warning disable CS8602 // Desreferência de uma referência possivelmente nula.
 					str = Console.ReadLine().Trim();
+#pragma warning restore CS8602 // Desreferência de uma referência possivelmente nula.
 					op = IsAlphaNumeric(str);
 				}
 				catch (Exception ex)
@@ -139,15 +146,23 @@ namespace Exercises
 
 				try
 				{
-					if (i == 0)					
-						Console.Write("\nEntre o valor de depósito inicial: ");
-					else if (i == 1) 
-						Console.Write("\nEntre um valor para depósito: ");
-					else					
-						Console.Write("\nEntre um valor para saque: ");
+					switch (i)
+					{
+						case 1:
+							Console.Write("\nEntre um valor para depósito: ");
+							break;
+						case 2:
+							Console.Write("\nEntre um valor para saque: ");
+							break;
+						default:
+							Console.Write("\nEntre o valor de depósito inicial: ");
+							break;
+					}
 					
 
+#pragma warning disable CS8602 // Desreferência de uma referência possivelmente nula.
 					num = Console.ReadLine().Trim();
+#pragma warning restore CS8602 // Desreferência de uma referência possivelmente nula.
 					op = double.TryParse(num, out saldo);
 				}
 				catch (Exception ex)
