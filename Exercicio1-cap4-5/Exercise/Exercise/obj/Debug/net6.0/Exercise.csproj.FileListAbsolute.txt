@@ -1,0 +1,15 @@
+D:\ProjetosEstudo\C#\Exercicio1-cap4-5\Exercise\Exercise\obj\Debug\net6.0\Exercise.csproj.AssemblyReference.cache
+D:\ProjetosEstudo\C#\Exercicio1-cap4-5\Exercise\Exercise\obj\Debug\net6.0\Exercise.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetosEstudo\C#\Exercicio1-cap4-5\Exercise\Exercise\obj\Debug\net6.0\Exercise.AssemblyInfoInputs.cache
+D:\ProjetosEstudo\C#\Exercicio1-cap4-5\Exercise\Exercise\obj\Debug\net6.0\Exercise.AssemblyInfo.cs
+D:\ProjetosEstudo\C#\Exercicio1-cap4-5\Exercise\Exercise\obj\Debug\net6.0\Exercise.csproj.CoreCompileInputs.cache
+D:\ProjetosEstudo\C#\Exercicio1-cap4-5\Exercise\Exercise\bin\Debug\net6.0\Exercise.exe
+D:\ProjetosEstudo\C#\Exercicio1-cap4-5\Exercise\Exercise\bin\Debug\net6.0\Exercise.deps.json
+D:\ProjetosEstudo\C#\Exercicio1-cap4-5\Exercise\Exercise\bin\Debug\net6.0\Exercise.runtimeconfig.json
+D:\ProjetosEstudo\C#\Exercicio1-cap4-5\Exercise\Exercise\bin\Debug\net6.0\Exercise.dll
+D:\ProjetosEstudo\C#\Exercicio1-cap4-5\Exercise\Exercise\bin\Debug\net6.0\ref\Exercise.dll
+D:\ProjetosEstudo\C#\Exercicio1-cap4-5\Exercise\Exercise\bin\Debug\net6.0\Exercise.pdb
+D:\ProjetosEstudo\C#\Exercicio1-cap4-5\Exercise\Exercise\obj\Debug\net6.0\Exercise.dll
+D:\ProjetosEstudo\C#\Exercicio1-cap4-5\Exercise\Exercise\obj\Debug\net6.0\ref\Exercise.dll
+D:\ProjetosEstudo\C#\Exercicio1-cap4-5\Exercise\Exercise\obj\Debug\net6.0\Exercise.pdb
+D:\ProjetosEstudo\C#\Exercicio1-cap4-5\Exercise\Exercise\obj\Debug\net6.0\Exercise.genruntimeconfig.cache

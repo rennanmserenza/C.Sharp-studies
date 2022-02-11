@@ -5,7 +5,6 @@ namespace Exercises
 {
 	class Program
 	{
-
 		static int NumConta()
 		{
 			while (true)
@@ -17,9 +16,7 @@ namespace Exercises
 				try
 				{
 					Console.Write("Entre o número da conta: ");
-#pragma warning disable CS8602 // Desreferência de uma referência possivelmente nula.
 					num = Console.ReadLine().Trim();
-#pragma warning restore CS8602 // Desreferência de uma referência possivelmente nula.
 					op = int.TryParse(num, out numC);
 				}
 				catch (Exception ex)
@@ -198,9 +195,8 @@ namespace Exercises
 
 			int nConta;
 			string titular;
-			double saldo;
-
 			char op;
+			double saldo;
 			
 			nConta = NumConta();
 			titular = TitularConta();
